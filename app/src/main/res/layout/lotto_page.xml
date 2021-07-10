@@ -1,4 +1,4 @@
-<com.randomappsinc.randomnumbergeneratorplus.theme.ThemedScrollView
+<com.fpera.randomnumbergenerator.theme.ThemedScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -6,11 +6,11 @@
     tools:ignore="SpUsage, RtlHardcoded">
 
     <LinearLayout style="@style/rng_page_container">
-        <com.randomappsinc.randomnumbergeneratorplus.theme.ThemedTextView
+        <com.fpera.randomnumbergenerator.theme.ThemedTextView
             android:text="@string/lottery_simulator"
             style="@style/page_title"/>
 
-        <com.randomappsinc.randomnumbergeneratorplus.theme.ThemedRelativeLayout
+        <com.fpera.randomnumbergenerator.theme.ThemedRelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="16dp">
@@ -26,7 +26,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
 
-                <com.randomappsinc.randomnumbergeneratorplus.theme.ThemedDivider
+                <com.fpera.randomnumbergenerator.theme.ThemedDivider
                     android:layout_width="wrap_content"
                     android:layout_height="1dp"
                     android:layout_marginLeft="4dp"
@@ -38,7 +38,7 @@
                     android:background="@color/black"/>
             </RelativeLayout>
 
-            <com.randomappsinc.randomnumbergeneratorplus.theme.ThemedTextView
+            <com.fpera.randomnumbergenerator.theme.ThemedTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_toLeftOf="@id/lotto_chooser"
@@ -47,7 +47,7 @@
                 android:text="@string/lottery_type"
                 android:textSize="15dp"
                 android:textColor="@color/dark_gray"/>
-        </com.randomappsinc.randomnumbergeneratorplus.theme.ThemedRelativeLayout>
+        </com.fpera.randomnumbergenerator.theme.ThemedRelativeLayout>
 
         <TextView
             android:id="@+id/generate"
@@ -56,4 +56,4 @@
 
         <include layout="@layout/results"/>
     </LinearLayout>
-</com.randomappsinc.randomnumbergeneratorplus.theme.ThemedScrollView>
+</com.fpera.randomnumbergenerator.theme.ThemedScrollView>

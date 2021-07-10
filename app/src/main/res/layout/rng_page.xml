@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.randomappsinc.randomnumbergeneratorplus.theme.ThemedScrollView
+<com.fpera.randomnumbergenerator.theme.ThemedScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,11 +10,11 @@
         android:id="@+id/focal_point"
         style="@style/rng_page_container">
 
-        <com.randomappsinc.randomnumbergeneratorplus.theme.ThemedTextView
+        <com.fpera.randomnumbergenerator.theme.ThemedTextView
             android:text="@string/random_number_generator"
             style="@style/page_title"/>
 
-        <com.randomappsinc.randomnumbergeneratorplus.theme.ThemedLinearLayout
+        <com.fpera.randomnumbergenerator.theme.ThemedLinearLayout
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:orientation="horizontal">
@@ -26,7 +26,7 @@
                 android:orientation="vertical"
                 android:padding="12dp">
 
-                <com.randomappsinc.randomnumbergeneratorplus.theme.ThemedTextView
+                <com.fpera.randomnumbergenerator.theme.ThemedTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
@@ -54,7 +54,7 @@
                 android:orientation="vertical"
                 android:padding="12dp">
 
-                <com.randomappsinc.randomnumbergeneratorplus.theme.ThemedTextView
+                <com.fpera.randomnumbergenerator.theme.ThemedTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
@@ -69,14 +69,14 @@
                     android:imeOptions="actionNext"
                     style="@style/numeric_input"/>
             </LinearLayout>
-        </com.randomappsinc.randomnumbergeneratorplus.theme.ThemedLinearLayout>
+        </com.fpera.randomnumbergenerator.theme.ThemedLinearLayout>
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@color/background_gray"/>
 
-        <com.randomappsinc.randomnumbergeneratorplus.theme.ThemedRelativeLayout
+        <com.fpera.randomnumbergenerator.theme.ThemedRelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="16dp">
@@ -92,7 +92,7 @@
                 android:imeOptions="actionDone"
                 style="@style/numeric_input"/>
 
-            <com.randomappsinc.randomnumbergeneratorplus.theme.ThemedTextView
+            <com.fpera.randomnumbergenerator.theme.ThemedTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_toLeftOf="@id/quantity"
@@ -101,14 +101,14 @@
                 android:text="@string/quantity"
                 android:textSize="15dp"
                 android:textColor="@color/dark_gray"/>
-        </com.randomappsinc.randomnumbergeneratorplus.theme.ThemedRelativeLayout>
+        </com.fpera.randomnumbergenerator.theme.ThemedRelativeLayout>
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@color/background_gray"/>
 
-        <com.randomappsinc.randomnumbergeneratorplus.theme.ThemedRelativeLayout
+        <com.fpera.randomnumbergenerator.theme.ThemedRelativeLayout
             android:id="@+id/excluded_numbers_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -122,7 +122,7 @@
                 android:layout_centerVertical="true"
                 style="@style/numeric_input"/>
 
-            <com.randomappsinc.randomnumbergeneratorplus.theme.ThemedTextView
+            <com.fpera.randomnumbergenerator.theme.ThemedTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_toLeftOf="@id/excluded_numbers"
@@ -131,7 +131,7 @@
                 android:text="@string/exclude_these"
                 android:textSize="15dp"
                 android:textColor="@color/dark_gray"/>
-        </com.randomappsinc.randomnumbergeneratorplus.theme.ThemedRelativeLayout>
+        </com.fpera.randomnumbergenerator.theme.ThemedRelativeLayout>
 
         <LinearLayout
             android:id="@+id/rng_settings"
@@ -166,4 +166,4 @@
 
         <include layout="@layout/results"/>
     </LinearLayout>
-</com.randomappsinc.randomnumbergeneratorplus.theme.ThemedScrollView>
+</com.fpera.randomnumbergenerator.theme.ThemedScrollView>

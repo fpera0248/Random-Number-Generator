@@ -14,7 +14,7 @@
         android:gravity="center_vertical"
         >
 
-        <com.randomappsinc.randomnumbergeneratorplus.theme.ThemedTextView
+        <com.fpera.randomnumbergenerator.theme.ThemedTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/sort_by"
@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 />
 
-            <com.randomappsinc.randomnumbergeneratorplus.theme.ThemedDivider
+            <com.fpera.randomnumbergenerator.theme.ThemedDivider
                 android:layout_width="wrap_content"
                 android:layout_height="1dp"
                 android:layout_marginLeft="4dp"
@@ -47,7 +47,7 @@
         </RelativeLayout>
     </LinearLayout>
 
-    <com.randomappsinc.randomnumbergeneratorplus.theme.ThemedCheckBox
+    <com.fpera.randomnumbergenerator.theme.ThemedCheckBox
         android:id="@+id/duplicates_toggle"
         android:text="@string/no_dupes"
         android:layout_marginTop="-4dp"
@@ -55,14 +55,14 @@
         style="@style/checkbox"
         />
 
-    <com.randomappsinc.randomnumbergeneratorplus.theme.ThemedCheckBox
+    <com.fpera.randomnumbergenerator.theme.ThemedCheckBox
         android:id="@+id/show_sum"
         android:text="@string/show_sum"
         app:buttonTint="@color/checkbox_box_color"
         style="@style/checkbox"
         />
 
-    <com.randomappsinc.randomnumbergeneratorplus.theme.ThemedCheckBox
+    <com.fpera.randomnumbergenerator.theme.ThemedCheckBox
         android:id="@+id/hide_excludes"
         android:text="@string/hide_excluded"
         app:buttonTint="@color/checkbox_box_color"
