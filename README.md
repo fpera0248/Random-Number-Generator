@@ -4,21 +4,15 @@ Created an Android number generator mobile app with Java and backported Material
 
 
 <p float="middle">
-<img width="250px" src='https://user-images.githubusercontent.com/73323113/128649597-c1b6abcd-1036-4a5e-8a48-5609ee8a8529.png' />
+<img width="250px" src='https://user-images.githubusercontent.com/73323113/128650099-d6f3b88f-3a30-4a94-b316-c648fcf4c53d.png' />
 
-<img width="250px" src='https://user-images.githubusercontent.com/73323113/128649602-8b41b331-0f4d-4150-9c36-13a6ae626047.png' />
+<img width="250px" src='https://user-images.githubusercontent.com/73323113/128650113-b63ea65d-be93-4018-a863-55c95659ee62.png' />
 
-<img width="250px" src='https://user-images.githubusercontent.com/73323113/128649611-25e5d5bd-400d-4568-8f81-c060066d71b6.png' />
+<img width="250px" src='https://user-images.githubusercontent.com/73323113/128650119-0ef76dcb-2165-4eed-aec4-ad0d70fd180f.png' />
 
-<img width="250px" src='https://user-images.githubusercontent.com/73323113/128649630-303dd750-fa69-4286-b8ca-91591f959933.png' />
+<img width="250px" src='https://user-images.githubusercontent.com/73323113/128650141-ff66a2b1-9c2a-44bd-8bd1-40770228c0ef.png' />
     
 </p>
 
-An open-source Android memory game. Play with the default icons, or play a custom game using photos from your phone. You can also download memory boards made by others by entering the game name.
-
-<p float="middle">
-    <img width="250px" src='https://github.com/rpandey1234/MyMemory/blob/main/assets/customWinConfetti.png' />
-    <img width="250px" src='https://github.com/rpandey1234/MyMemory/blob/main/assets/creationFlow.png' />
-</p>
 
 
